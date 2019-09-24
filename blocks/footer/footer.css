@@ -1,0 +1,26 @@
+@import url(./menu/footer__menu.css);
+@import url(./menu-item/footer__menu-item.css);
+@import url(./link/footer__link.css);
+@import url(./copyright/footer__copyright.css);
+
+.footer {
+    max-width: 1184px;
+}
+
+@media screen and (max-width: 1275px) {
+    .footer {
+        max-width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .footer {
+        max-width: calc(100% - 32px);
+    }
+}

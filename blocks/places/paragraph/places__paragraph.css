@@ -1,0 +1,39 @@
+@import url(./one-paragraph/places__paragraph_one-paragraph.css);
+
+.places__paragraph {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.places__paragraph:nth-child(n+2) {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__paragraph {
+        line-height: 30.3px;
+    }
+
+    .places__paragraph:nth-child(n+2) {
+        margin-top: 28px;
+    }
+}
+
+@media screen and (max-width: 896px) {
+    .places__paragraph { 
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .places__paragraph:nth-child(n+2) {
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .places__paragraph:nth-child(n+2) {
+        margin-top: 28px;
+    }
+}

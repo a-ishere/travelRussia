@@ -1,0 +1,26 @@
+.comments__item {
+    max-width: 382px;
+}
+
+.comments__item:nth-of-type(n+2) {
+    margin-left: 19px;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .comments__item:nth-of-type(n+2) {
+        margin-left: 0;
+        margin-top: 76px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .comments__item:nth-of-type(n+2) {
+        margin-top: 54px;
+    }
+}

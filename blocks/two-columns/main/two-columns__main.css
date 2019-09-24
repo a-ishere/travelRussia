@@ -1,0 +1,21 @@
+.two-columns__main {
+    max-width: 683px;
+}
+
+@media screen and (max-width: 1024px) {
+    .two-columns__main {
+        max-width: 692px;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    .two-columns__main {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .two-columns__main {
+        max-width: 99%;
+    }
+}

@@ -1,0 +1,16 @@
+.comments__subtitle {
+    text-align: center; 
+    margin: 39px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__subtitle {
+        margin: 30px auto 0;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .comments__subtitle {
+        margin: 24px auto 0;
+    }
+}

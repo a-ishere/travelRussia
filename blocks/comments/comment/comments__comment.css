@@ -1,0 +1,19 @@
+.comments__comment {
+    margin-top: 36px;
+    font-size: 14px;
+    line-height: 23.9px;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__comment {
+        font-size: 16px;
+        order: 3;
+        margin-top: 17px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .comments__comment {
+        margin-top: 18px;
+    }
+}

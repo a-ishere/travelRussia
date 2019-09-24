@@ -1,0 +1,22 @@
+.video__subtitle-item {
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+    .video__subtitle-item {
+        margin-top: 11.5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .video__subtitle-item {
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .video__subtitle-item {
+        margin-top: 8px;
+    }
+}

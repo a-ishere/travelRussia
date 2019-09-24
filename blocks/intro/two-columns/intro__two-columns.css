@@ -1,0 +1,21 @@
+.intro__two-columns {
+    margin-top: 34px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__two-columns {
+        margin-top: 36px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .intro__two-columns {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__two-columns {
+        margin-top: 38px;
+    }
+}

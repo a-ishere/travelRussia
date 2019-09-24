@@ -1,0 +1,31 @@
+@import url(./link/lang__link.css);
+
+.lang { 
+    font-size: 24px;
+    line-height: 23px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.lang:nth-child(n+2) .lang__link {
+    margin-left: 18px;
+}
+
+@media screen and (max-width: 376px) {
+    .lang { 
+        font-size: 18px;
+        line-height: 17px;
+    }
+
+    .lang:nth-child(n+2) .lang__link {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lang:nth-child(n+2) .lang__link {
+        margin-left: 18px;
+    }
+}

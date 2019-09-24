@@ -1,0 +1,12 @@
+.places__heading {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+@media screen and (max-width: 376px) {
+    .places__heading {
+        max-width: calc(100% - 32px);
+        margin: auto;
+    }
+}

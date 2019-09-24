@@ -1,0 +1,12 @@
+.comments__image {
+    width: 97px;
+    height: 97px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .comments__image {
+        order: 1;
+    }
+}

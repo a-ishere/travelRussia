@@ -1,0 +1,7 @@
+@import url(./author/two-columns__author.css);
+@import url(./main/two-columns__main.css);
+@import url(./paragraph/two-columns__paragraph.css);
+
+.two-columns {
+    display: flex;
+}

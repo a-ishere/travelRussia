@@ -1,0 +1,26 @@
+.video__layer {
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+@media screen and (max-width: 872px) {
+    .video__layer {
+        width: calc(100% - 24px);
+        height: calc(100% - 24px);
+        padding: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .video__layer {
+        width: calc(100% - 16px);
+        height: calc(100% - 16px);
+        padding: 16px;
+    }
+}

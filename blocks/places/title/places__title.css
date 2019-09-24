@@ -1,0 +1,43 @@
+.places__title {
+    width: 460px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 65px;
+    letter-spacing: 0.94px;
+}
+
+@media screen and (max-width: 896px) {
+    .places__title {
+        font-size: 62px;
+        line-height: 55px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__title {
+        width: 338px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .places__title {
+        font-size: 36px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .places__title {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .places__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

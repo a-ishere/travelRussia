@@ -1,0 +1,25 @@
+.places__link-container {
+    position: absolute;
+    bottom: 2px;
+    left: calc(50% + 9px);
+}
+
+@media screen and (max-width: 1024px) {
+    .places__link-container {
+        bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .places__link-container {
+        bottom: 2px;
+        left: auto;
+        right: 0;   
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .places__link-container {
+        display: none;
+    }
+}
