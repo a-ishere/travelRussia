@@ -1,0 +1,10 @@
+@import url(./__layer/cover__layer.css);
+@import url(./__title/cover__title.css);
+@import url(./__description/cover__description.css);
+@import url(./__container/cover__container.css);
+
+.cover {
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: 100%;
+}

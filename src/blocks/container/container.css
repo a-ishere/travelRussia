@@ -1,0 +1,8 @@
+@import url(./__item/container__item.css);
+@import url(./__layer/container__layer.css);
+
+.container {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}

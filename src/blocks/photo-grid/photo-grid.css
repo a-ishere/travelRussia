@@ -1,0 +1,6 @@
+@import url(./__gallery/photo-grid__gallery.css);
+@import url(./__item/photo-grid__item.css);
+
+.photo-grid {
+    max-width: 100%;
+}

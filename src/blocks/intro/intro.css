@@ -1,0 +1,11 @@
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__two-columns/intro__two-columns.css);
+@import url(./__span/intro__span.css);
+@import url(./__paragraph/intro__paragraph.css);
+@import url(./__photo-grid/intro__photo-grid.css);
+
+.intro {
+    max-width: 1184px;
+}

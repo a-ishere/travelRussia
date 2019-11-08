@@ -1,8 +1,0 @@
-@import url(./url-heading/website-link__url-heading.css);
-@import url(./url/website-link__url.css);
-@import url(./border/website-link__border.css);
-
-.website-link {
-    width: auto; 
-    height: auto;
-}
